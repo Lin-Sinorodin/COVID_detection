@@ -1,8 +1,6 @@
-# Technion EE 046211 - Deep Learning (Spring 2021)
+![image info](Project/Figures/presentation1.png)
 
 > This repository contains my project for the Technion's EE 046211 course "Deep Learning".
-
-![image info](Project/Figures/presentation1.png)
 
 ## Introduction
 This project will attempt to use transfer learning in order to classify CT scans as positive or negative for COVID19.
