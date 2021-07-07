@@ -24,11 +24,10 @@ __1. Data exploration and feature extraction:__
     * ```val_true_values_vgg.csv```
     * ```val_predictions_vit.csv```
     * ```val_true_values_vit.csv```
-    
 __2. Train classifier models from the generated features:__
 * Notebook can be found in this repository at ```Project/train_classifier.ipynb```
 * Also, after obtaining the features files (previous part), the code can be used in Google Colab: 
-  * [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Lin-Sinorodin/Technion_046211-Deep_Learning/blob/master/Project/train_classifier.ipynb)
+  * [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Lin-Sinorodin/Technion_046211-Deep_Learning_Project/blob/master/Project/train_classifier.ipynb)
 
 ## Dataset
 The dataset [COVIDx CT](https://www.kaggle.com/hgunraj/covidxct) from Kaggle used for this project. 
