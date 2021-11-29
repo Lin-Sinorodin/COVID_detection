@@ -1,4 +1,4 @@
-![image info](https://github.com/Lin-Sinorodin/COVID_detection/tree/main/Project/Figures/presentation1.png)
+![image info](https://github.com/Lin-Sinorodin/COVID_detection/blob/main/Project/Figures/presentation1.png)
 
 > This repository contains my project for the Technion's EE 046211 course "Deep Learning".
 
@@ -36,20 +36,20 @@ This dataset contains CT scans for both positive and negative COVID19 cases.
 > * The number of data samples for positive and negative class isn't balanced, so the custom dataloader 
 keeps equal number of samples of both positive and negative samples. 
 
-![image info](https://github.com/Lin-Sinorodin/COVID_detection/tree/main/Project/Figures/preview_data.png)
+![image info](https://github.com/Lin-Sinorodin/COVID_detection/blob/main/Project/Figures/preview_data.png)
 
 > __Preprocessing steps:__
 > * All the images provided with a bounding box, allowing one to crop the images to contain only the relevant areas.
 > * In order to use the ViT model, the images should be with size 384x384.
 
-![image](https://github.com/Lin-Sinorodin/COVID_detection/tree/main/Project/Figures/preprocessing.png)
+![image](https://github.com/Lin-Sinorodin/COVID_detection/blob/main/Project/Figures/preprocessing.png)
 
 ## Image Classification
 
 For the classification, two models will be compared as feature extractors:
 * ViT [1] - pretrained model from [lukemelas/PyTorch-Pretrained-ViT](https://github.com/lukemelas/PyTorch-Pretrained-ViT) 
-on GitHub (it has very detailed and useful readme). This model is trained on ImageNet-21K. ![image info](https://github.com/Lin-Sinorodin/COVID_detection/tree/main/Project/Figures/Presentation1_vit.png)
-* VGG [2] - pretrained model from ```torchvision.models```. This model is trained on ImageNet. ![image info](https://github.com/Lin-Sinorodin/COVID_detection/tree/main/Project/Figures/Presentation1_vgg.png)
+on GitHub (it has very detailed and useful readme). This model is trained on ImageNet-21K. ![image info](https://github.com/Lin-Sinorodin/COVID_detection/blob/main/Project/Figures/Presentation1_vit.png)
+* VGG [2] - pretrained model from ```torchvision.models```. This model is trained on ImageNet. ![image info](https://github.com/Lin-Sinorodin/COVID_detection/blob/main/Project/Figures/Presentation1_vgg.png)
 
 ### Feature Extraction
 For each model, the features obtained by replacing the last layer in the original model with an identity layer, 
@@ -75,7 +75,7 @@ Now inference with ```model``` will yield features insted of classification.
 ## Results
 
 ### VGG
-![image](https://github.com/Lin-Sinorodin/COVID_detection/tree/main/Project/Figures/results_vgg.png)
+![image](https://github.com/Lin-Sinorodin/COVID_detection/blob/main/Project/Figures/results_vgg.png)
 
   Time   | Epoch | Learning rate |  Loss  | Val accuracy |  Val (tp, tn, fp, fn)   
 :---------:|:-------:|:---------------:|:--------:|:----:|:---------------------------:
@@ -93,7 +93,7 @@ Now inference with ```model``` will yield features insted of classification.
 
 
 ### ViT
-![image](https://github.com/Lin-Sinorodin/COVID_detection/tree/main/Project/Figures/results_vit.png)
+![image](https://github.com/Lin-Sinorodin/COVID_detection/blob/main/Project/Figures/results_vit.png)
 
   Time   | Epoch | Learning rate |  Loss  | Val accuracy |  Val (tp, tn, fp, fn)   
 :---------:|:-------:|:---------------:|:--------:|:----:|:---------------------------:
